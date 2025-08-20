@@ -26,7 +26,8 @@ export default {
 				foreground: 'hsl(var(--foreground))',
 				primary: {
 					DEFAULT: 'hsl(var(--primary))',
-					foreground: 'hsl(var(--primary-foreground))'
+					foreground: 'hsl(var(--primary-foreground))',
+					glow: 'hsl(var(--primary-glow))'
 				},
 				secondary: {
 					DEFAULT: 'hsl(var(--secondary))',
@@ -51,6 +52,35 @@ export default {
 				card: {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
+				},
+				whatsapp: {
+					DEFAULT: 'hsl(var(--whatsapp))',
+					foreground: 'hsl(var(--whatsapp-foreground))',
+					glow: 'hsl(var(--whatsapp-glow))'
+				},
+				'voice-call': {
+					DEFAULT: 'hsl(var(--voice-call))',
+					foreground: 'hsl(var(--voice-call-foreground))',
+					glow: 'hsl(var(--voice-call-glow))'
+				},
+				sync: {
+					DEFAULT: 'hsl(var(--sync))',
+					foreground: 'hsl(var(--sync-foreground))',
+					glow: 'hsl(var(--sync-glow))'
+				},
+				dashboard: {
+					DEFAULT: 'hsl(var(--dashboard))',
+					foreground: 'hsl(var(--dashboard-foreground))',
+					glow: 'hsl(var(--dashboard-glow))'
+				},
+				central: {
+					DEFAULT: 'hsl(var(--central))',
+					foreground: 'hsl(var(--central-foreground))',
+					glow: 'hsl(var(--central-glow))'
+				},
+				interaction: {
+					DEFAULT: 'hsl(var(--interaction))',
+					foreground: 'hsl(var(--interaction-foreground))'
 				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
